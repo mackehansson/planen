@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-clip-content-border {
+        background-clip: content-box, border-box;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#__next {
+    height: 100%;
+}
